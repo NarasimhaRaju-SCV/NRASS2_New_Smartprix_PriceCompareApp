@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Rating is :10/10
+]]>
+    </line>
+    <line>
+      <![CDATA[Third Lowest Price is :Rs. 16,900
+]]>
+    </line>
+    <line>
+      <![CDATA[Rating is :9.6/10
+]]>
+    </line>
+    <line>
+      <![CDATA[Third Lowest Price is :Rs. 19,500
+]]>
+    </line>
+    <line>
+      <![CDATA[Rating is :8.5/10
+]]>
+    </line>
+    <line>
+      <![CDATA[Third Lowest Price is :Rs. 8,749
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="300204" started-at="2016-08-10T15:21:54Z" finished-at="2016-08-10T15:26:54Z">
+    <groups>
+    </groups>
+    <test name="Perfecto Assignment 1 Compare stocks" duration-ms="300204" started-at="2016-08-10T15:21:54Z" finished-at="2016-08-10T15:26:54Z">
+      <class name="Test.MainTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.MainTest@59ec2012]" name="beforeClass" is-config="true" duration-ms="43815" started-at="2016-08-10T20:51:54Z" finished-at="2016-08-10T20:52:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[partners.perfectomobile.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo@newtglobal.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DEMO123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sara]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Nexus 5]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Smartprix_1.2.0.apk]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[com.smartprix.main]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="compareTabletPrices(java.lang.String)[pri:0, instance:Test.MainTest@59ec2012]" name="compareTabletPrices" duration-ms="31760" started-at="2016-08-10T20:52:38Z" data-provider="priceCompareInput" finished-at="2016-08-10T20:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung Galaxy Tab E]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Rating is :10/10
+]]>
+            </line>
+            <line>
+              <![CDATA[Third Lowest Price is :Rs. 16,900
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- compareTabletPrices -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Test.MainTest@59ec2012]" name="afterClass" is-config="true" duration-ms="27477" started-at="2016-08-10T20:53:10Z" finished-at="2016-08-10T20:53:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.MainTest@59ec2012]" name="beforeClass" is-config="true" duration-ms="39831" started-at="2016-08-10T20:53:38Z" finished-at="2016-08-10T20:54:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[partners.perfectomobile.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo@newtglobal.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DEMO123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sara]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Nexus 5]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Smartprix_1.2.0.apk]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[com.smartprix.main]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="compareTabletPrices(java.lang.String)[pri:0, instance:Test.MainTest@59ec2012]" name="compareTabletPrices" duration-ms="30382" started-at="2016-08-10T20:54:17Z" data-provider="priceCompareInput" finished-at="2016-08-10T20:54:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[APPLE IPAD MINI 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Rating is :9.6/10
+]]>
+            </line>
+            <line>
+              <![CDATA[Third Lowest Price is :Rs. 19,500
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- compareTabletPrices -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Test.MainTest@59ec2012]" name="afterClass" is-config="true" duration-ms="27238" started-at="2016-08-10T20:54:48Z" finished-at="2016-08-10T20:55:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.MainTest@59ec2012]" name="beforeClass" is-config="true" duration-ms="39792" started-at="2016-08-10T20:55:15Z" finished-at="2016-08-10T20:55:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[partners.perfectomobile.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo@newtglobal.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DEMO123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sara]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Nexus 5]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Smartprix_1.2.0.apk]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[com.smartprix.main]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="compareTabletPrices(java.lang.String)[pri:0, instance:Test.MainTest@59ec2012]" name="compareTabletPrices" duration-ms="31415" started-at="2016-08-10T20:55:55Z" data-provider="priceCompareInput" finished-at="2016-08-10T20:56:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Micromax Canvas Tablet P680]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Rating is :8.5/10
+]]>
+            </line>
+            <line>
+              <![CDATA[Third Lowest Price is :Rs. 8,749
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- compareTabletPrices -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Test.MainTest@59ec2012]" name="afterClass" is-config="true" duration-ms="28161" started-at="2016-08-10T20:56:26Z" finished-at="2016-08-10T20:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Test.MainTest -->
+    </test> <!-- Perfecto Assignment 1 Compare stocks -->
+  </suite> <!-- Suite -->
+</testng-results>

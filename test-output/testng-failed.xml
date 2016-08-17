@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="appPackage" value="com.smartprix.main"/>
+  <parameter name="password" value="DEMO123"/>
+  <parameter name="persona" value="Sara"/>
+  <parameter name="apkfilename" value="Smartprix_1.2.0.apk"/>
+  <parameter name="host" value="partners.perfectomobile.com"/>
+  <parameter name="model" value="Nexus 5"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="user" value="demo@newtglobal.com"/>
+  <parameter name="manufacturer" value="Google"/>
+  <test name="Perfecto Assignment 1 Compare stocks(failed)">
+    <classes>
+      <class name="Test.MainTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="compareTabletPrices" invocation-numbers="1"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Test.MainTest -->
+    </classes>
+  </test> <!-- Perfecto Assignment 1 Compare stocks(failed) -->
+</suite> <!-- Failed suite [Suite] -->
